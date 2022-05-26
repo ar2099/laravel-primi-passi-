@@ -8,10 +8,11 @@
 </head>
 <body>
  <p>Hello word</p> 
-    <p>{{ $bimbo }}</p>
-    @foreach($nomi as $nome)
+ 
+    @foreach($bimbo as $nome) 
     <p>{{ $nome }}</p>
-    @endforeach
+  @endforeach 
+  
  
 </body>
 </html>

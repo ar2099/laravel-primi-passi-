@@ -14,11 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $bimbo = "Marvin";
-    $nomi = [
-        "Gesu",
-        "Maria",
-        "Beppe"
+    $nomi= [
+        "bimbo" =>[
+           "beppe" ,
+           "maria",
+           "bimba"
+        ]
+       
     ];
-    return view('home', $bimbo, $nomi);
+   
+    return view('home', $nomi);
 });
