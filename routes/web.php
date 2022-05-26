@@ -15,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $bimbo = "Marvin";
-    return view('home', $bimbo);
+    $nomi = [
+        "Gesu",
+        "Maria",
+        "Beppe"
+    ];
+    return view('home', $bimbo, $nomi);
 });

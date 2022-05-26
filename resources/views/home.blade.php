@@ -9,6 +9,9 @@
 <body>
  <p>Hello word</p> 
     <p>{{ $bimbo }}</p>
+    @foreach($nomi as $nome)
+    <p>{{ $nome }}</p>
+    @endforeach
  
 </body>
 </html>
